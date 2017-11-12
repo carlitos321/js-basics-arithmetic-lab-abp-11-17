@@ -14,4 +14,4 @@ const randomNumber = Math.floor(Math.random() * 20);
 
 const randomInteger = Math.floor(randomNumber);
 
-const randomUserID = randomInteger + 100000000;
+const randomUserID = Math.Ceil(randomInteger + 100000000);
